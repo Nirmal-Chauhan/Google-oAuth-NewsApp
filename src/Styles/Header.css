@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.logo-title{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width:100px;
+    height:60px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation{
+    font-size: 16px;
+}
+
+.nav-links{
+    list-style-type:none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-links li{
+    margin-right: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+}
+
+.nav-links a:hover{
+    color: rgb(123, 169, 209);
+}
